@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+
+	 <!-- Metas -->
+        <meta charset="utf-8">
+        <title>Anant Jindal - CV</title>
+        <meta name="description" content="">
+      	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+		<!-- Css -->
+    <link href="{{ url_for('static', filename='css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all"/>
+		<link href="{{ url_for('static', filename='css/magnific-popup.css')}}" type="text/css" rel="stylesheet" media="all" />
+		<link href="{{ url_for('static', filename='css/font.css')}}" rel="stylesheet" type="text/css"  media="all">
+		<link href="{{ url_for('static', filename='css/base.css')}}" rel="stylesheet" type="text/css" media="all"/>
+		<link href="{{ url_for('static', filename='css/main.css')}}"  rel="stylesheet" type="text/css" media="all"/>
+		<link href="{{ url_for('static', filename='css/owl-carousel/owl.carousel.css')}}" rel="stylesheet"  media="all">
+		<link href="{{ url_for('static', filename='css/owl-carousel/owl.theme.css')}}" rel="stylesheet"  media="all">
+
+    </head>
+    <body>
+
+<!-- Preloader -->
+<div class="loader">
+		<!-- Loader inner -->
+  <div class="loader-inner">
+	<div class="sk-cube-grid">
+	  <div class="sk-cube sk-cube1"></div>
+	  <div class="sk-cube sk-cube2"></div>
+	  <div class="sk-cube sk-cube3"></div>
+	  <div class="sk-cube sk-cube4"></div>
+	  <div class="sk-cube sk-cube5"></div>
+	  <div class="sk-cube sk-cube6"></div>
+	  <div class="sk-cube sk-cube7"></div>
+	  <div class="sk-cube sk-cube8"></div>
+	  <div class="sk-cube sk-cube9"></div>
+	</div>
+  </div>
+<!-- End loader inner -->
+</div>
+<!-- End preloader-->
+
+<!--Wrapper-->
+<div id="wrapper">
+
+	<!--Home section-->
+	<section id="home" class="home">
+
+
+		<!--Block content-->
+		<div class="block-content ">
+
+
+			<div class="block-teaser block-background-image large overlay" data-background="{{ url_for('static', filename='img/photos/3.jpeg')}}">
+
+					<!--Container-->
+					<div class="container ">
+
+
+						<!--Row-->
+			            <div class="row">
+
+
+							<div class="col-sm-12 ">
+                            <h1 class="white ">Anant Jindal</h1>
+							<h3 class="mt-20 white mb-200">Management Professional / Software Developer</h3>
+                        </div>
+
+						</div>
+						<!--End row-->
+
+							<!--Row-->
+				            <div class="row">
+
+
+								<div class="col-sm-6 ">
+                  		<!--add link here for CV download-->
+	                            	  <a target="_blank" href="{{ url_for('static', filename='CV-Anant Jindal-1 page.pdf')}}" class="but opc ico white"><i class="icon-print-1"></i>Print Out My CV</a>
+								</div>
+
+
+								<div class="col-sm-6 t-right">
+	                            	 <p class="white short-email">Do you have any questions ? Write to me at <a href="mailto:anantjindal1@gmail.com">anantjindal1@gmail.com</a> </p>
+								</div>
+
+							</div>
+							<!--End row-->
+
+					</div>
+					<!--End container-->
+		</div>
+			</div>
+			<!--End block content-->
+
+	</section>
+	<!--End home section-->
+
+	<!--Navigation container-->
+	<div class="nav-container base">
+
+			<nav class="main-nav default">
+
+				<!--Container-->
+				<div class="container ">
+
+					<!--Row-->
+		            <div class="row">
+
+			<div class="mobile-menu-holder">
+			<a class="mobile-btn" href="#"><i class="icon-menu"></i></a>
+			</div>
+
+				</div>
+				<!--End row-->
+			</div>
+			<!--End container-->
+
+			<!--Container-->
+			<div class="container ">
+
+				<!--Row-->
+	            <div class="row">
+
+					<div class="col-sm-5 t-center">
+
+							<ul class="menu first">
+							<li><a 	class="scroll" href="#home">Home<i class="icon-home"></i></a></li>
+							<li><a  class="scroll" href="#about">About<i class="icon-user"></i></a></li>
+              <li><a  class="scroll" href="#resume">Resume<i class="icon-doc-text-inv"></i></a></li>
+
+							</ul>
+					</div>
+
+					<div class="col-sm-2 pd-0 t-center">
+
+						<div class="img-profile">
+							<img src="{{ url_for('static', filename='img/photos/selfie_main.png')}}" alt="">
+						</div>
+
+						<div class="name-profile">
+							<h5><a class="scroll" href="#home">Anant Jindal<span>Management Professional / Software Developer</span></a></h5>
+						</div>
+					</div>
+
+					<div class="col-sm-5 t-center">
+							<ul class="menu second">
+
+							<li><a  class="scroll" href="http://anantjindal1.blogspot.com">Blog<i class="icon-chat"></i></a></li>
+							<li><a  class="scroll" href="mailto:anantjindal1@gmail.com">Contact<i class="icon-paper-plane"></i></a></li>
+							</ul>
+					</div>
+
+					</div>
+					<!--End row-->
+
+
+
+				</div>
+				<!--End container-->
+
+				</nav>
+	</div>
+	<!--End navigation container-->
+
+
+	<!--About section-->
+	<section id="about" class="about">
+
+			<!--Block content-->
+			<div class="block-content clearfix">
+
+				<div class="block-about one bg-grey-1 ">
+
+					<div class="block-title">
+						<h2 class="title">Who am I ?</h2>
+					</div>
+
+						<h5 class="lead mt-40">A Technology oriented management professional</h5>
+
+						<p class="mt-20">Strong professional with a Master of Business Administration (MBA) from
+               Indian Institute of Management, Calcutta. Skilled in Product Lifecycle Management & Application Developement.</p>
+
+            <!-- add link for downloading CV here-->
+						<a target="_blank" href="{{ url_for('static', filename='CV-Anant Jindal-1 page.pdf')}}" class="but brd ico white mt-30"><i class="icon-down-circled2 "></i>Download My CV</a>
+
+				</div>
+
+				<div class="block-about two bg-grey-2 ">
+
+						<div class="block-title">
+							<h2 class="title">Personal Info</h2>
+
+						</div>
+
+									<ul class="mt-40 info">
+									<li><span>Age</span> : 27</li>
+									<li><span>Phone</span> : + 91 99 71 866 240</li>
+									<li><span>Email</span> : anantjindal1@gmail.com</li>
+									<li><span>Skype</span> : live:anantjindal1 </li>
+									<li><span>Linkedin</span> : <a href="https://www.linkedin.com/in/anantjindal1/" target="_blank"> https://www.linkedin.com/in/anantjindal1/</a></li>
+								<!--	<li><span>Blog</span> : 1234 Street Road, City Name, IN 567 890.</li>-->
+									</ul>
+
+<!--
+									<ul class="mt-20 socials">
+									<li><a href="#"><i class="icon-twitter"></i></a></li>
+									<li><a href="#"><i class="icon-facebook"></i></a></li>
+									<li><a href="#"><i class="icon-gplus"></i></a></li>
+									<li><a href="#"><i class="icon-pinterest"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble"></i></a></li>
+									<li><a href="#"><i class="icon-vimeo"></i></a></li>
+									<li><a href="#"><i class="icon-flickr"></i></a></li>
+							</ul>
+            -->
+
+
+				</div>
+
+
+				<div class="block-about three bg-grey-1">
+
+						<div class="block-title">
+							<h2 class="title">My Expertise</h2>
+						</div>
+
+						<div class="block-expertise mt-40">
+
+              <!--Expertise-->
+              <div class="expertise mb-20 clearfix">
+
+                <div class="exp-ico">
+                  <span class="ico">
+                  <i class="ic-lock"></i>
+                  </span>
+                </div>
+
+                <div class="exp-det">
+                  <h6>Business Analysis</h6>
+                  <p>Data Analysis, Problem solving, Reporting, Presentation</p>
+                </div>
+
+              </div>
+              <!--Expertise-->
+
+              <!--Expertise-->
+              <div class="expertise clearfix">
+
+                <div class="exp-ico">
+                  <span class="ico">
+                  <i class="ic-phone"></i>
+                  </span>
+                </div>
+
+                <div class="exp-det">
+                  <h6>Software Development</h6>
+                  <p>VBA, Python, Java, HTML, MS Office, G Suite</p>
+                </div>
+
+              </div>
+              <!--Expertise-->
+
+
+							<!--Expertise-->
+							<div class="expertise mb-20 clearfix">
+
+								<div class="exp-ico">
+									<span class="ico">
+									<i class="ic-desktop"></i>
+									</span>
+								</div>
+
+								<div class="exp-det">
+									<h6>Process improvement & Automation</h6>
+									<p>Management, Dashboards & Scripts </p>
+								</div>
+
+							</div>
+							<!--Expertise-->
+				</div>
+
+				</div>
+
+			</div>
+			<!--End block content-->
+
+	</section>
+	<!--End about section-->
+
+			<!--Resume section-->
+			<section id="resume" class="resume pt-100 pb-80">
+
+
+					<!--Container-->
+					<div class="container ">
+
+						<!--Row-->
+			            <div class="row">
+
+							<div class="col-md-12">
+
+							<div class="block-title mb-60">
+								<h2 class="title">My Resume</h2>
+							</div>
+							</div>
+
+							</div>
+							<!--End row-->
+
+								<!--Row-->
+					   <div class="row masonry">
+
+
+							<!--Block content-->
+							<div class="block-content">
+
+
+								<div class="col-md-4 col-sm-6 resume-boxe masonry">
+
+									<div class="inner-resume-boxe">
+
+										<div class="block-icon"><i class="ic-toolbox"></i></div>
+										<div class="block-title">
+											<h3 class="title medium">Experience</h3>
+										</div>
+
+										<div class="timeline mt-40">
+
+                      <!-- exp - SJT-->
+											<div class="exp">
+											<div class="hgroup mb-5">
+												<h4>ECommerce Manager &ndash; SJT Footwear Industries </h4>
+												<h6>May 2019 &ndash; <span class="current">Current</span></h6>
+											</div>
+											<p>Started selling footwear on B2B & B2C online channels - Ajio, Udaan, Bijnis & Amazon;
+                        4 lakh+ Sales in 2 months; Developing processes for digitizing operations, production & dispatch.
+												 </p>
+											</div>
+
+                      <!-- exp - SRKC-->
+                      <div class="exp">
+                      <div class="hgroup mb-5">
+                        <h4>Management Trainee &ndash; SRKC </h4>
+                        <h6>May 2019 &ndash; <span class="current">Current</span></h6>
+                      </div>
+                      <p>Oversaw 3 bridge projects (total Value 30cr+). Acted as Liaison with various government & in-house departments for smoother workflow
+                        Conceptualized dashboard modules for expense, planning, costing in google sheets and developed tracking mechanisms
+                      </p>
+                      </div>
+
+                      <!-- exp - Gartner-->
+											<div class="exp">
+											<div class="hgroup mb-5">
+												<h4>Senior Business Analyst &ndash; Gartner </h4>
+												<h6>May 2018 &ndash; May 2019</h6>
+											</div>
+											<p>Identified client priorities & suggested IT roadmaps for 200+ clients
+                        Developed automated modules for Daily Dashboard, Sending mail & extracting relevant information from 1000+ files using VBA & python
+                      </p>
+											</div>
+
+                      <!-- exp - SJT-->
+											<div class="exp">
+											<div class="hgroup mb-5">
+												<h4>Assistant Manager &ndash; Strategy & operations &ndash;MarketsandMarkets </h4>
+												<h6>April 2018 &ndash; Mar 2019</h6>
+											</div>
+											<p>Identified client priorities & suggested IT roadmaps for 200+ clients
+                        Developed automated modules for Daily Dashboard, Sending mail & extracting relevant information from 1000+ files using VBA & python
+                      </p>
+											</div>
+
+
+											<div class="exp">
+											<div class="hgroup mb-5">
+												<h4>Software Engineer &ndash; Samsung Research India, Noida  </h4>
+												<h6>June 2012 &ndash; January 2015</h6>
+											</div>
+											<p>Identified client priorities & suggested IT roadmaps for 200+ clients
+                        Developed automated modules for Daily Dashboard, Sending mail & extracting relevant information from 1000+ files using VBA & python
+
+												 </p>
+											</div>
+
+										</div>
+										</div>
+
+
+								</div>
+
+									<div class="col-md-4 col-sm-6 resume-boxe masonry">
+
+
+										<div class="inner-resume-boxe">
+
+											<div class="block-icon"><i class="ic-pencil"></i></div>
+											<div class="block-title">
+												<h3 class="title medium">Education</h3>
+											</div>
+
+											<div class="timeline mt-40">
+
+												<div class="edu">
+												<div class="hgroup mb-5">
+													<h4>PGDM/MBA  &ndash; IIM Calcutta </h4>
+													<h6>June 2015 &ndash; April 2017</h6>
+												</div>
+												<p>CG: 7.6/9
+                          •Achieved Institute Rank 15 out of 462 students in Term 2
+                          •Selected as 1 of the only 6 Class Representatives from a batch of 462 students at IIM Calcutta
+                          • Responsible for liaising with faculty to manage academic related activities of a section of 79 students
+                        </p>
+												</div>
+
+                        <div class="edu">
+                        <div class="hgroup mb-5">
+                          <h4>Student Exchange &ndash; Louvain School of Management (UCL), Belgium  </h4>
+                          <h6>September 2016 &ndash; December 2016</h6>
+                        </div>
+                        <p>Completed Bloomberg Market Concepts training including fixed income & economic indicators modules
+                          Learned R & built Stock Analysis Models
+
+                           </p>
+                        </div>
+												<div class="edu">
+												<div class="hgroup mb-5">
+													<h4>B.Tech (Computer Science) &ndash; The LNM Institute of information Technology </h4>
+													<h6>August 2008 &ndash; May 2012</h6>
+												</div>
+												<p>Part of Student Government, Academic Council. Active member of Quiz Club & Programming club
+                          • Elected as 1 of 4 senate representatives by 144 batch mates for student gymkhana
+                          • Organized student body elections for 600+ students while working as head of elections committee
+                          • Co-founded SWOT team, which analyses student problems and provides long term solutions
+													 </p>
+												</div>
+
+
+
+
+											</div>
+											</div>
+
+									</div>
+
+										<div class="col-md-4 col-sm-6 resume-boxe masonry">
+
+											<div class="inner-resume-boxe">
+
+												<div class="block-icon"><i class="ic-tools-2"></i></div>
+												<div class="block-title">
+													<h3 class="title medium">Skills</h3>
+												</div>
+
+												<div class="skills mt-40 ">
+
+													<ul class="skill-list clearfix">
+														<li>
+															<h4>Problem Solving</h4>
+															<div class="rating">
+															<span></span>
+															<span></span>
+															<span></span>
+															<span></span>
+															<span class="transparent"></span>
+															</div>
+														</li>
+														<li>
+															<h4>MS Office</h4>
+															<div class="rating">
+															<span></span>
+															<span></span>
+															<span></span>
+															<span></span>
+															<span class="transparent"></span>
+															</div>
+														</li>
+
+														<li>
+															<h4>Technology</h4>
+															<div class="rating">
+															<span></span>
+															<span></span>
+															<span></span>
+															<span></span>
+															<span class="transparent"></span>
+															</div>
+														</li>
+														<li>
+															<h4>Automation</h4>
+															<div class="rating">
+															<span></span>
+															<span></span>
+															<span></span>
+															<span class="transparent"></span>
+															<span class="transparent"></span>
+															</div>
+														</li>
+
+
+													</ul>
+
+												</div>
+
+												</div>
+
+										</div>
+
+												<div class="col-md-4 col-sm-6 resume-boxe masonry">
+
+													<div class="inner-resume-boxe">
+
+														<div class="block-icon"><i class="ic-mic"></i></div>
+														<div class="block-title">
+															<h3 class="title medium">Languages</h3>
+														</div>
+
+														<div class="skills mt-40 ">
+
+															<ul class="skill-list clearfix">
+																<li>
+																	<h4>English</h4>
+																	<div class="rating">
+																	<span></span>
+																	<span></span>
+																	<span></span>
+																	<span></span>
+																	<span class="transparent"></span>
+																	</div>
+																</li>
+																<li>
+																	<h4>Hindi</h4>
+																	<div class="rating">
+																	<span></span>
+																	<span></span>
+																	<span></span>
+																	<span class="transparent"></span>
+																	<span class="transparent"></span>
+																	</div>
+																</li>
+																<li>
+																	<h4>Programming Languages</h4>
+																	<div>
+																	<span> Java, Python, HTML, R, Javascript, SQL</span>
+																	</div>
+																</li>
+
+															</ul>
+
+														</div>
+
+														</div>
+
+												</div>
+
+												<div class="col-md-4 col-sm-6 resume-boxe masonry">
+
+
+													<div class="inner-resume-boxe">
+
+														<div class="block-icon"><i class="ic-telescope"></i></div>
+														<div class="block-title">
+															<h3 class="title medium">Interests</h3>
+														</div>
+
+														<div class="hb-list mt-40 ">
+
+																<ul>
+																	<li>
+																		<span><i class="ic-presentation"></i></span>
+																		<h6>Learning</h6>
+																	</li>
+
+																	<li>
+																		<span><i class="ic-strategy"></i></span>
+																		<h6>Gaming</h6>
+																	</li>
+
+
+																	<li>
+																		<span><i class="ic-hotairballoon"></i></span>
+																		<h6>Travel</h6>
+																	</li>
+
+
+
+																	<li>
+																		<span><i class="ic-basket"></i></span>
+																		<h6>Cooking</h6>
+																	</li>
+
+
+																</ul>
+
+														</div>
+
+														</div>
+
+												</div>
+
+													<div class="col-md-4 col-sm-6 resume-boxe masonry">
+
+
+														<div class="inner-resume-boxe">
+
+															<div class="block-icon"><i class="ic-wallet"></i></div>
+															<div class="block-title">
+																<h3 class="title medium">Assets</h3>
+															</div>
+
+															<div class="ast-list mt-40 ">
+
+																<ul>
+																	<li>
+																		<span>Adaptablity</span>
+																		<span>Communication</span>
+																		<span>Team work</span>
+																	</li>
+
+																	<li>
+																		<span>Time Management</span>
+																		<span>Software development</span>
+																		<span>Management</span>
+																	</li>
+
+																	<li>
+																		<span>Quick Learner</span>
+																		<span>Talkative</span>
+																	</li>
+
+
+																</ul>
+
+															</div>
+
+
+
+															</div>
+
+													</div>
+
+							</div>
+							<!--End block content-->
+
+							</div>
+							<!--End row-->
+
+							<!--Row-->
+				            <div class="row">
+
+
+							<!--Block content-->
+							<div class="block-content mt-50 pb-80 clearfix">
+
+
+								<ul class="fact-list">
+									<li class="col-sm-3">
+										<div class="inner-fact clearfix">
+										<span class="ico-fact"><i class="ic-hourglass"></i></span>
+										<div class="desc-fact"><span class="count">15</span>Apps developed</div>
+										</div>
+									</li>
+
+									<li class="col-sm-3">
+										<div class="inner-fact clearfix">
+										<span class="ico-fact"><i class="ic-trophy"></i></span>
+										<div class="desc-fact"><span class="count">5</span>Years of Experience</div>
+										</div>
+									</li>
+
+									<li class="col-sm-3">
+										<div class="inner-fact clearfix">
+										<span class="ico-fact"><i class="ic-lightbulb"></i></span>
+										<div class="desc-fact"><span class="count">15</span>Countries Travelled</div>
+										</div>
+									</li>
+
+									<li class="col-sm-3">
+										<div class="inner-fact clearfix">
+										<span class="ico-fact"><i class="ic-heart"></i></span>
+										<div class="desc-fact"><span class="count">7</span>Cities lived in</div>
+										</div>
+									</li>
+								</ul>
+
+
+							</div>
+							<!--End block content-->
+
+								</div>
+								<!--End row-->
+
+						</div>
+						<!--End container-->
+
+
+
+
+
+			</section>
+			<!--End resume section-->
+			<!--Footer-->
+			<footer class="footer t-center pt-60 pb-60">
+
+						<!--Container-->
+						<div class="container">
+
+              <div class="row">
+
+
+								<div class="block-info-holder clearfix">
+
+								<div class="col-sm-4">
+
+									<div class="block-info">
+									<div class="info-ico">
+										<span class="ico">
+										<i class="ic-phone"></i>
+										</span>
+									</div>
+
+
+									<div class="info-det">
+									<h5 class="mb-10">Call Me</h5>
+									<p>Cell : +91-9971 866 240</p>
+								</div>
+
+
+							</div>
+
+								</div>
+
+								<div class="col-sm-4">
+
+									<div class="block-info">
+									<div class="info-ico">
+										<span class="ico">
+										<i class="ic-streetsign"></i>
+										</span>
+									</div>
+
+
+									<div class="info-det">
+									<h5 class="mb-10">Address</h5>
+									<p>Jaipur/Bangalore</p>
+								</div>
+
+
+							</div>
+
+								</div>
+
+								<div class="col-sm-4">
+
+									<div class="block-info">
+									<div class="info-ico">
+										<span class="ico">
+										<i class="ic-clock"></i>
+										</span>
+									</div>
+
+
+									<div class="info-det">
+									<h5 class="mb-10">Work hours</h5>
+									<p>
+									Monday - Friday : 09am - 18pm<br>
+									Saturday : 09am - 1pm
+									</p>
+								</div>
+
+
+							</div>
+
+								</div>
+
+							</div>
+
+							</div>
+							<!--End row-->
+
+			</div>
+			<!--End container-->
+
+
+			</footer>
+			<!--End footer-->
+
+</div>
+<!--End wrapper-->
+
+
+<!--Javascript-->
+
+<script src="{{ url_for('static', filename='js/jquery-1.11.3.min.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/owl.carousel.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/jquery.magnific-popup.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/masonry.min.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/jquery.smooth-scroll.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/jquery.appear.min.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/timer.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/placeholders.min.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/instafeed.min.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/easing.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/jquery.ui.totop.min.js')}}" type="text/javascript"></script>
+<script src="{{ url_for('static', filename='js/script.js')}}" type="text/javascript"></script>
+
+    </body>
+</html>
