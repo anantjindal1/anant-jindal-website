@@ -25,17 +25,17 @@ def showHome():
     return render_template('index.html')
 
 '''
-@app.route('/projects/')
+@app.route('/1/')
 def allProjects():
-    return render_template('works.html')
+    return render_template('blog.html')
 
-@app.route('/quote/')
+@app.route('/2/')
 def quotes():
-    return render_template('get-quote.html')
+    return render_template('project_single.html')
 
-@app.route('/gallery/')
+@app.route('/3/')
 def photoGallery():
-    return render_template('photogallery.html')
+    return render_template('blog_single.html')
 
 @app.route('/about/')
 def about():
